@@ -1,0 +1,18 @@
+# Configurations
+ram = 2048          #ram in mb
+storage = 20        #hdd size in gb for vm
+ 
+Vagrant.configure("2") do |config|
+    config.vm.box = "bento/centos-7"
+    config.vm.hostname = "centos-vm-1"
+ 
+    config.vm.network :forwarded_port, guest: 22, host: 12822, id: 'ssh'
+    config.vm.network :private_network, ip: "192.168.33.51"
+ 
+    config.vm.provider "virtualbox" do |v|
+      v.name = "centos-vm-1"
+      v.customize ["modifyvm", :id, "--memory", "#{ram}"]
+      v.customize ["modifyvm", :id, "--usb", "off"]
+      v.customize ["modifyvm", :id, "--usbehci", "off"]
+    end
+end
