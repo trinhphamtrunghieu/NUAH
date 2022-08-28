@@ -7,8 +7,8 @@ public abstract class Handler {
     abstract void installVagant();
     abstract void checkVB();
     final String resource = System.getProperty("user.dir") + "\\resource\\";
-    final String installation = System.getProperty("user.dir") + "\\installation\\";
-    final String log = System.getProperty("user.dir") + "\\log\\";
+    String installation = System.getProperty("user.dir") + "\\installation\\";
+    String log = System.getProperty("user.dir") + "\\log\\";
     public void execute(){
         checkVagant();
         installVagant();

@@ -3,3 +3,4 @@ installation/
 target/
 *.msi
 *.box
+*.exe
