@@ -1,3 +1,5 @@
 installation/
 .vscode/
 target/
+*.msi
+*.box
