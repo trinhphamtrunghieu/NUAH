@@ -1,0 +1,35 @@
+[33mcommit 7f995f744e30e774b6452e34752cd086f3284d10[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: trinhphamtrunghieu <trinhphamtrunghieu@gmail.com>
+Date:   Wed Aug 31 18:26:13 2022 +0700
+
+    Adding feature for window handler
+
+[33mcommit d8984d4257b60a322afe95451be0cfc7021ec5a3[m
+Author: trinhphamtrunghieu <trinhphamtrunghieu@gmail.com>
+Date:   Mon Aug 29 00:23:05 2022 +0700
+
+    Add process monitor
+
+[33mcommit a8d39ee4271aa88f9fb4f0553a0d745b0144cd53[m
+Author: hieutrinh <trinhphamtrunghieu@gmail.com>
+Date:   Sun Aug 28 12:11:35 2022 +0700
+
+    Vagrant in window
+
+[33mcommit 97f0d5600115681d9ee6484d6c72e1da793fe7dd[m
+Author: hieutrinh <trinhphamtrunghieu@gmail.com>
+Date:   Sun Aug 28 12:10:37 2022 +0700
+
+    adjust .gitignore
+
+[33mcommit 915629e8b27af0a4a9af2dbdb37f382fc6e52bac[m
+Author: hieutrinh <trinhphamtrunghieu@gmail.com>
+Date:   Sun Aug 28 11:57:35 2022 +0700
+
+    add gitignore
+
+[33mcommit d5318d3311f28238c2f0d1ae5bf2f8d8615904b7[m
+Author: hieutrinh <trinhphamtrunghieu@gmail.com>
+Date:   Sun Aug 28 11:56:53 2022 +0700
+
+    first commit
