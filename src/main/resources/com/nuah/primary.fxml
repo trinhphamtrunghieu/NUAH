@@ -12,5 +12,6 @@
    <children>
       <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ACTIVATE VIRTUAL OS" />
       <Button fx:id="aButton" mnemonicParsing="false" onAction="#activate" prefHeight="25.0" prefWidth="101.0" text="ACTIVATE" />
+      <Text fx:id="status" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="102.13671875" />
    </children>
 </VBox>

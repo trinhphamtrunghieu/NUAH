@@ -3,19 +3,19 @@ package com.nuah.handler;
 public class HandleMac extends Handler {
 
     @Override
-    void checkVagant() {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
     void installVagant() {
         // TODO Auto-generated method stub
         
     }
 
     @Override
-    void checkVB() {
+    void installVB() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    void runImage() {
         // TODO Auto-generated method stub
         
     }

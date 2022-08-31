@@ -1,13 +1,7 @@
 package com.nuah;
 
 
-import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 import com.nuah.handler.HandleLinux;
 import com.nuah.handler.HandleMac;
@@ -15,8 +9,8 @@ import com.nuah.handler.HandleWindow;
 import com.nuah.handler.Handler;
 
 import javafx.fxml.FXML;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.text.Text;
 
 public class PrimaryController {
 
@@ -39,12 +33,15 @@ public class PrimaryController {
     boolean isWindow = false;
 
     @FXML
-    Button aButton;
+    private Button aButton;
+    @FXML
+    private Text status;
 
     @FXML
     private void activate() throws IOException {
         aButton.setDisable(true);
         assignHandler();
+        handler.assignStatusButton(status);
         handler.execute();
         String arch = System.getProperty("os.arch");
         System.out.print(arch);
@@ -59,6 +56,10 @@ public class PrimaryController {
         } else {
             handler = new HandleMac();
         }
+    }
+
+    public void showStatus(String s) {
+        status.setText(s);
     }
 
 }
