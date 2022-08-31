@@ -1,0 +1,4 @@
+vagrant_2.3.0_windows_amd64.msi filter=lfs diff=lfs merge=lfs -text
+vagrant_2.3.0_windows_i686.msi filter=lfs diff=lfs merge=lfs -text
+VirtualBox-6.1.36-r152435.msi filter=lfs diff=lfs merge=lfs -text
+VirtualBox-6.1.36-152435-Win.exe filter=lfs diff=lfs merge=lfs -text
